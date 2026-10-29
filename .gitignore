@@ -1,0 +1,17 @@
+/target
+
+# website artifacts
+/site_html
+.cache
+
+# IDEs / Editors
+.idea
+.DS_STORE
+.zed/
+
+# pending snapshots
+.*.pending-snap
+
+# benchmarks
+.codspeed/
+bench/__pycache__/

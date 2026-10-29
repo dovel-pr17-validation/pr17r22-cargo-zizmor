@@ -1,0 +1,45 @@
+version: 2
+updates:
+  - package-ecosystem: uv
+    cooldown:
+      default-days: 7
+    directory: "/"
+    schedule:
+      interval: weekly
+    groups:
+      uv:
+        patterns:
+          - "*"
+
+  - package-ecosystem: cargo
+    cooldown:
+      default-days: 7
+    directory: "/"
+    schedule:
+      interval: weekly
+    groups:
+      cargo:
+        patterns:
+          - "*"
+
+  - package-ecosystem: github-actions
+    cooldown:
+      default-days: 7
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+
+  - package-ecosystem: docker
+    cooldown:
+      default-days: 7
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      docker:
+        patterns:
+          - "*"
