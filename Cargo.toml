@@ -32,11 +32,11 @@ yamlpath = { path = "crates/yamlpath", version = "1.32.0-rc1" }
 zizmor-dev = { path = "crates/zizmor-dev" }
 zizmor-sarif = { path = "crates/zizmor-sarif", version = "1.32.0-rc1" }
 
-annotate-snippets = "0.12.16"
+annotate-snippets = "0.12.17"
 anstream = "1.0.0"
-anyhow = "1.0.102"
+anyhow = "1.0.104"
 assert_cmd = "2.2.2"
-async-trait = "0.1.89"
+async-trait = "0.1.92"
 camino = "1.2.2"
 clap = "4.6.1"
 clap_complete = "4.6.5"
